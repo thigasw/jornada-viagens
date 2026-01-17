@@ -3,7 +3,7 @@ header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: flex-start;
+  align-items: center;
   padding: 38px 48px;
   position: relative;
 }
@@ -44,3 +44,24 @@ nav {
   color: var(--text-secondary-color);
   text-decoration: none;
 }
+
+@media screen and (min-width:768px){
+  .navgation-menu{
+    margin-top: 0;
+  }
+  .navgation-menu label{
+    display: none;
+  }
+  .navgation-menu nav{
+    display: block;
+  }
+  .navgation-menu ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+   
+  }
+ 
+}
+  
