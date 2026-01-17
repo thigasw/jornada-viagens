@@ -1,0 +1,91 @@
+header {
+  background-color: var(--background-tertiary-color);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 38px 48px;
+  position: relative;
+}
+
+.logo {
+  display: inline-block;
+  width: 68px;
+  height: 64px;
+}
+.logo-mobile{
+  display: block;
+}
+.logo-desktop{
+  display: none;
+}
+.navgation-menu {
+  margin-top: 24px;
+}
+
+input[type="checkbox"]:checked ~ nav {
+  display: block;
+  position: absolute;
+  top: 100%;
+  left: 0px;
+  width: 100%;
+  background-color: var(--background-tertiary-color);
+}
+
+nav {
+  display: none;
+}
+
+.list-links {
+  list-style: none;
+}
+
+.list-links li {
+  margin: 0px 10px;
+  padding: 10px;
+}
+.list-links li a {
+  color: var(--text-secondary-color);
+  text-decoration: none;
+}
+
+@media screen and (min-width: 768px) {
+  .navgation-menu {
+    margin-top: 0;
+  }
+  .navgation-menu label {
+    display: none;
+  }
+  .navgation-menu nav {
+    display: block;
+  }
+  .navgation-menu ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+@media screen and (min-width: 1024px){
+
+  header{
+    padding: 38px 120px;
+  }
+  .logo{
+     width: 260px;
+    height: 64px;
+  }
+   
+  
+  .logo-desktop{
+    display: block;
+
+  }
+  .logo-mobile{
+    display: none;
+  }
+  .navgation-menu a:hover{
+    color: var(--primary-color);
+  }
+}
