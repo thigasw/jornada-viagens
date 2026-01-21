@@ -1,4 +1,14 @@
+.offers-cards{
+    display: inline-flex;
+    flex-direction: column;
+    
+}
+
+
+
+
 .card {
+
   color: var(--text-secondary-color);
   background-color: #ff0062;
   width: 312px;
