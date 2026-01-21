@@ -13,17 +13,19 @@
   display: block;
   background-color: transparent;
   position: static;
+  padding: 0;
+  margin-bottom: 24px;
 }
 
 .card header p{
     font-size: 20px;
-    font-weight: var(--text-weight) ;
+    font-weight: var(--text-weigth) ;
 }
 
 .card header h3{
     margin: 8px 0 0;
     font-size: 40px;
-    font-weight: var(--title-weigth);
+    font-weight: var(--titles-weigth);
 }
 
 .card header span{
@@ -31,3 +33,4 @@
     margin-top: 24px;
     font-size: 32px;
 }
+
