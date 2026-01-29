@@ -1,0 +1,76 @@
+.payments{
+    margin-top: 88px;
+}
+
+.content-container{
+    display: flex;
+}
+.text-content h3{
+    margin-top: 24px;
+    font-size: 28px;
+    margin-bottom: 24px;
+}
+
+.text-content p{
+    font-size: 20px;
+}
+.img-gallery{
+    display: grid;
+    height: 460px;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+   margin-top: 24px;
+   width: 100%;
+}
+
+.image.bag{
+    background: url(/img/bag-mobile.png) no-repeat;
+    background-size: cover;
+}
+
+.passport{
+  
+    background: url(/img/passport-mobile.png) no-repeat;
+    background-size: cover;
+}
+
+.people.colspan-2{
+    grid-column: span 2;
+    background: url(/img/people-mobile.png) no-repeat;
+    background-size: cover;
+}
+
+@media screen and (min-width:768px) {
+
+.image.bag{
+    background: url(/img/bag-tablet.png) no-repeat;
+    background-size: cover;
+}
+
+.passport{
+  
+    background: url(/img/passport-tablet.png) no-repeat;
+    background-size: cover;
+}
+
+.people.colspan-2{
+    grid-column: span 2;
+    background: url(/img/people-tablet.png) no-repeat;
+     background-size: cover;
+}
+
+}
+
+@media screen and (min-width:1440px){
+
+   .text-content{
+        width:360px ;
+    }
+    .img-gallery{
+        width: 790px;
+    }
+
+   .content-container {
+    justify-content: space-between;
+}
+}
