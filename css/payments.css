@@ -2,11 +2,8 @@
     margin-top: 88px;
 }
 
-.content-container{
-    display: flex;
-}
+
 .text-content h3{
-    margin-top: 24px;
     font-size: 28px;
     margin-bottom: 24px;
 }
@@ -67,10 +64,12 @@
         width:360px ;
     }
     .img-gallery{
+        margin-top: 0;
         width: 790px;
     }
 
    .content-container {
+    display: flex;
     justify-content: space-between;
 }
 }
