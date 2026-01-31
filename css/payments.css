@@ -37,6 +37,26 @@
     background-size: cover;
 }
 
+
+.travel-packages .image.bag{
+    background: url(/img/packets-japao.png) no-repeat;
+    background-size: cover;
+}
+
+.travel-packages .passport{
+  
+    background: url(/img/packets-japao\ 2.png) no-repeat;
+    background-size: cover;
+}
+
+.travel-packages .people.colspan-2{
+    grid-column: span 2;
+    background: url(/img/packets-japao\ 3.png) no-repeat;
+    background-size: cover;
+}
+
+
+
 @media screen and (min-width:768px) {
 
 .image.bag{
@@ -55,6 +75,23 @@
     background: url(/img/people-tablet.png) no-repeat;
      background-size: cover;
 }
+.travel-packages .image.bag{
+    background: url(/img/Montagem\ japão\ 1-desktop.png) no-repeat;
+    background-size: cover;
+}
+
+.travel-packages .passport{
+  
+    background: url(/img/Montagem\ japão\ 2-desktop.png) no-repeat;
+    background-size: cover;
+}
+
+.travel-packages .people.colspan-2{
+    grid-column: span 2;
+    background: url(/img/Montagem\ japão\ 3-desktop.png) no-repeat;
+    background-size: cover;
+}
+
 
 }
 
