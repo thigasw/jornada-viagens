@@ -3,8 +3,7 @@
   height: 400px;
   width: 100%;
 }
-
-.hero-img {
+ .hero-img {
   height: 400px;
   width: 100%;
   background: url(../img/hero-mobile.png) no-repeat;
@@ -15,6 +14,53 @@
   background: url(../img/bottom-mobile.png) no-repeat;
   background-size: cover;
 }
+
+
+
+
+/* PACOTES DE VIAGENS */
+.travel-packages.hero {
+    margin-bottom: 80px;
+}
+
+.travel-packages .hero-img {
+    height: 480px;
+    background: url(../img/pacotes-bg.png) no-repeat;
+    background-size: cover;
+}
+
+.travel-packages.bottom-hero .hero-img {
+  background: url(../img/travel-packages-bg-footer-mobile.png)
+    no-repeat;
+  background-size: cover;
+}
+
+.travel-packages .hero-content {
+    padding: 65px 24px;
+}
+
+.travel-packages .hero-content h1 {
+    font-size: 48px;
+    color: var(--text-secondary-color);
+    font-weight: var(--title-weight);
+}
+
+.travel-packages .hero-content hr {
+    width: 180px;
+    height: 4px;
+    background-color: var(--secondary-color);
+    border: none;
+    margin: 16px 0 32px;
+}
+
+.travel-packages .hero-content p {
+    font-size: 20px;
+    color: var(--text-secondary-color);
+    font-weight: var(--text-weight);
+    line-height: 32px;
+}
+
+
 @media screen and (min-width: 768px) {
   .hero-img {
     height: 620px;
@@ -22,7 +68,26 @@
     background: url(../img/hero-tablet.png) no-repeat;
     background-size: cover;
   }
+  .travel-packages .hero-content {
+    padding: 210px 70px 107px;
+  }
+
+  .travel-packages .hero-content p {
+    font-size: 32px;
+    line-height: 48px;
+  }
+  .travel-packages .hero-img {
+    background: url(../img/bg-pacotes-tablet.png) no-repeat;
+    background-size: cover;
+    height: 620px;
+  }
+  .travel-packages.bottom-hero .hero-img {
+    height: 400px;
+    background: url(../img/travel-packages-bg-footer-desktop.png)no-repeat;
+    background-size: cover;
+  }
 }
+
 
 .hero h2 {
   padding: 88px 24px;
@@ -67,10 +132,42 @@
     background: url(../img/bottom-desktop.png) no-repeat;
     background-size: cover;
   }
+
+   .travel-packages .hero-content {
+    padding: 150px 120px 170px;
+    margin: 0 auto;
+  }
+  .travel-packages .hero-content p {
+    width: 570px;
+  }
+  .travel-packages .hero-img {
+    background: url(../img/bg-pacotes-desktop.png) no-repeat;
+    background-size: cover;
+  }
+  .travel-packages.bottom-hero .hero-img {
+    height: 600px;
+    background: url(../img/travel-packages-bg-footer-desktop.png)
+      no-repeat;
+    background-size: cover;
+  }
 }
 
 @media screen and (min-width: 1920px) {
   .hero h2 {
     padding: 88px 160px;
   }
+}
+
+
+.hero-pacotes  {
+  height: 460px;
+  width: 100%;
+}
+
+
+
+@media screen and (min-width: 1440px){
+    .travel-packages .hero-content {
+        width: 1200px;
+    }
 }
